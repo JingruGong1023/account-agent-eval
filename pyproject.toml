@@ -1,0 +1,13 @@
+[project]
+name = "account-agent-eval"
+version = "0.1.0"
+description = "Evaluating an LLM account-management agent the way a release-gating data scientist would: retrieval metrics, task success, groundedness, failure analysis, and a ship / no-ship call."
+authors = [
+    { name = "Jingru Gong", email = "92954319+JingruGong1023@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
