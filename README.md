@@ -27,9 +27,9 @@ flowchart LR
 
 | Week | Focus | Output |
 |---|---|---|
-| 1 | Release-gate methods; eval-set design | `docs/release-gate.md`, test-task spec |
-| 2 | Synthetic corpus + retrieval eval | `notebooks/` retrieval eval |
-| 3 | Agent + task-level eval + failure analysis | `reports/eval-report-v1.md` |
+| 1 | ~20 test tasks (what "good" looks like) + v0 agent with one tool (account Q&A) | `data/` test tasks, v0 agent in `src/` |
+| 2 | Retrieval + 2 more tools (reorder flag, follow-up draft); retrieval eval (recall@k, MRR, NDCG); ~40 tasks | v1 agent, `notebooks/` retrieval eval |
+| 3 | Eval methods: human labels, LLM-judge calibration, error bars, failure buckets; ship call | `reports/eval-report-v1.md` |
 | 4 | Production scoring pipelines (notes) | `docs/scoring-pipeline.md` |
 
 ## Layout
